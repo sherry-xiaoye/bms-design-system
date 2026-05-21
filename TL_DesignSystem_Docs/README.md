@@ -58,7 +58,7 @@ TL_DesignSystem_Docs/
     └── AI_Output_Checklist.md
 ```
 
-> 注意：`Components/SelectAndPickers.md` 文件名包含空格，脚本、命令行或 AI 工具读取时需要保留完整路径，必要时使用引号包裹。
+> 注意：文档文件名统一使用 PascalCase，不使用空格；脚本、命令行或 AI 工具读取时应保留完整路径。
 
 ## 使用方式
 

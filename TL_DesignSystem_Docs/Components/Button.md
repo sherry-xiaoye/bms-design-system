@@ -33,7 +33,18 @@
 - 同一区域只允许一个 Primary。
 - 删除、作废、停用等危险动作使用 `Button-Danger`。
 - 表格行内操作优先使用 `TextButton` 或 `Link`。
-- Button-Group 用于弹窗底部或固定底部操作区、结果页面、Filter Bar。
+
+### Button-Group 组合规则
+
+`Button-Group` 用于多个按钮在同一区域内成组出现，适用于弹窗底部、固定底部操作区、结果页面、Filter Bar、卡片操作区等场景。
+
+| Alignment | Count | 按钮顺序 | 使用说明 |
+|---|---:|---|---|
+| `Left` | `Two` | `Primary + General` | 左侧主操作优先展示 |
+| `Left` | `Three` | `Primary + General + General` | 左侧主操作 + 两个次级操作 |
+| `Left` | `Four` | `Primary + General + General + General` | 左侧多操作场景，需控制使用频率 |
+| `Right` | `Two` | `General + Primary` | 右侧确认类操作，主操作靠右 |
+| `Right` | `Three` | `General + General + Primary` | 右侧三按钮操作组，主操作固定在最右侧 |
 
 
 业务场景示例：
