@@ -27,7 +27,9 @@ TL_DesignSystem_Docs/
 ├── Components/
 │   ├── AppHeader.md
 │   ├── Button.md
+│   ├── Capsule.md
 │   ├── Input.md
+│   ├── Search.md
 │   ├── SelectAndPickers.md
 │   ├── Table.md
 │   ├── Dialog.md
@@ -48,6 +50,7 @@ TL_DesignSystem_Docs/
 ├── Patterns/
 │   ├── TablePage.md
 │   ├── FormPage.md
+│   ├── CardListPage.md
 │   ├── DetailPage.md
 │   └── DashboardPage.md
 └── Guidelines/
@@ -82,7 +85,9 @@ Foundations/Spacing.md
 Foundations/Grid.md
 Patterns/TablePage.md
 Components/Button.md
+Components/Capsule.md
 Components/Input.md
+Components/Search.md
 Components/SelectAndPickers.md
 Components/Table.md
 Components/Pagination.md
@@ -171,6 +176,32 @@ Components/Table.md
 Components/Tag.md
 Components/SelectAndPickers.md
 Components/OverlayTips.md
+Components/Feedback.md
+```
+
+### 生成 CardListPage
+
+建议读取：
+
+```text
+Guidelines/AI_Coding_Rules.md
+Guidelines/AI_Output_Checklist.md
+Guidelines/Naming.md
+Guidelines/Layout.md
+Components/AppHeader.md
+Foundations/SemanticTokens.json
+Foundations/PrimitivesTokens.json
+Foundations/Color.md
+Foundations/Typography.md
+Foundations/Spacing.md
+Foundations/Grid.md
+Patterns/CardListPage.md
+Components/Card.md
+Components/Button.md
+Components/Search.md
+Components/Capsule.md
+Components/Tag.md
+Components/Pagination.md
 Components/Feedback.md
 ```
 
