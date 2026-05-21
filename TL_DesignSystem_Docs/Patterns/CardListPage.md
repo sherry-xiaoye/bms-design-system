@@ -53,6 +53,7 @@ Body
 - `Sidebar-Left`：宽度为 `180px`。
 - `Body`：位于 `AppHeader` 下方、`Sidebar-Left` 右侧。
 - `Body` 内边距：`20px`。
+- `Body` 背景颜色遵循 `Guidelines/Layout.md`，必须使用 `Background/Default`。
 - `Body` 内部纵向间距：`Spacing/5`。
 - `Body` 区域遵循 `Foundations/Grid.md` 中的 8 栅格与 Breakpoint 规则。
 - 主内容宽度随 Body 自动填充，不设置固定最大宽度。

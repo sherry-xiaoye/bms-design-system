@@ -20,6 +20,7 @@ Body
 | `Sidebar-Left` | `180px` | 左侧导航宽度 |
 | `Body` | `x=180`, `y=56` | 主内容区域起点 |
 | `Body padding` | `20px` | 主内容区内边距 |
+| `Body background` | `Background/Default` | 主内容区背景色 |
 
 Body 区域遵循 `Foundations/Grid.md` 中的 8 栅格与 Breakpoint 规则。
 `AppHeader` 的内部结构、尺寸和交互规则见 `Components/AppHeader.md`。
@@ -45,7 +46,8 @@ Body 内部必须根据页面类型匹配对应 Pattern：
 
 ## 3. 视觉布局规则
 
-- 页面背景优先使用 `Background/Disabled Subtle`。
+- 页面外层背景优先使用 `Background/Disabled Subtle`。
+- `Body` 主内容区背景必须使用 `Background/Default`。
 - 内容容器背景使用 `Background/Default`。
 - 左侧导航背景使用 `Background/Sidebar`。
 - 顶部导航背景使用 `Background/Top Navigation`。

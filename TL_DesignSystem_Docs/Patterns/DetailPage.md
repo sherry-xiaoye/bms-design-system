@@ -26,8 +26,8 @@ Body
   - Sidebar：`180px`
   - Body：`x=180`, `y=56`
   - Body padding：`20px`
+  - Body 背景颜色遵循 `Guidelines/Layout.md`，必须使用 `Background/Default`
 - 颜色：
-  - 页面背景优先使用 `Background/Disabled Subtle`
   - 内容背景优先使用 `Background/Default`
   - 主文本使用 `Text/Primary`
   - 次级文本使用 `Text/Secondary`

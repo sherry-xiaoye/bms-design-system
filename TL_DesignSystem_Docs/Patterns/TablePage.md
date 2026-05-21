@@ -37,9 +37,9 @@ Body
   - Sidebar：`180px`
   - Body：`x=180`, `y=56`
   - Body padding：`20px`
+  - Body 背景颜色遵循 `Guidelines/Layout.md`，必须使用 `Background/Default`
   - 主内容宽度：自动填充满 Body 可用区域
 - 颜色：
-  - 页面背景优先使用 `Background/Disabled Subtle`
   - 内容容器背景使用 `Background/Default`
   - 表格表头使用 `Background/TableHeader`
   - 表头文本使用 `Text/TableHeader`
